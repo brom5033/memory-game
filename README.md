@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Memory-Game
+기억력 향상을 위한 간단한 게임 제작 입니다.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Requirement
+```
+react, typescript, framer-motion, husky, eslint, prettier
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# How to run?
+```
+yarn
+yarn dev
+```
+
+# Commit rule
+```
+eat        새로운 기능을 제공합니다.
+fix         버그 수정.
+docs        문서만 변경됩니다.
+style       코드 작동에 영향을 미치지 않는 스타일 변경(빈 공간, 코드 포멧팅, 누락된 세미콜론 등)
+refactor    버그를 수정하거나 기능을 추가하지 않는 코드 변경입니다.
+test        테스트 코드를 추가하거나 기존 테스트 코드를 수정합니다.
+chore       빌드 프로세스 또는 보조 도구 및 라이브러리(예: 문서 생성)에 대한 변경 사항.
+perf        성능을 향상시키는 코드 변경입니다.
+ci          CI 구성 파일 및 스크립트의 변경 사항.
+build       빌드 시스템 또는 외부 디펜던시에 영향을 미치는 변경 사항(예: gulp, brocoli, npm).
+temp        변경사항에 포함되지 않는 임시 커밋입니다.
+```
