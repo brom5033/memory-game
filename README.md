@@ -12,6 +12,19 @@ yarn
 yarn dev
 ```
 
+## Introduction
+```
+메모리 게임은 React와 TypeScript로 제작된 간단하고 재미있는 게임입니다. 게임의 목표는 카드를 뒤집어 짝을 맞추는 것입니다.
+```
+
+## Features 
+```
+- 대부분 ChatGpt 가 작성한 코드 (간단한 코드 수정 및 css 만 작업 했습니다.)
+- 반응형 디자인
+- 여러 카드 테마
+- 타이머 및 성공여부 추적
+```
+
 # Commit rule
 ```
 eat        새로운 기능을 제공합니다.
@@ -26,3 +39,5 @@ ci          CI 구성 파일 및 스크립트의 변경 사항.
 build       빌드 시스템 또는 외부 디펜던시에 영향을 미치는 변경 사항(예: gulp, brocoli, npm).
 temp        변경사항에 포함되지 않는 임시 커밋입니다.
 ```
+
+바로가기 : [Memory Game](https://brom5033.github.io/memory-game)
