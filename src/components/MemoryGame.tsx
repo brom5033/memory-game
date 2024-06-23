@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, FC } from 'react';
+import { useState, useEffect, useRef, FC } from 'react';
 import styled from '@emotion/styled';
 import GameBoard from './GameBoard.tsx';
 
