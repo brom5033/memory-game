@@ -92,40 +92,41 @@ const FooterText = styled.h4`
 `;
 
 const MemoryGame: FC = () => {
+    const base = import.meta.env.BASE_URL;
     const initialCards: CardState[] = [
         {
             id: 'card1-1',
-            image: '/images/card1.jpg',
+            image:  `${base}images/card1.jpg`,
             flipped: false,
             matched: false,
         },
         {
             id: 'card1-2',
-            image: '/images/card1.jpg',
+            image: `${base}images/card1.jpg`,
             flipped: false,
             matched: false,
         },
         {
             id: 'card2-1',
-            image: '/images/card2.png',
+            image: `${base}images/card2.png`,
             flipped: false,
             matched: false,
         },
         {
             id: 'card2-2',
-            image: '/images/card2.png',
+            image: `${base}images/card2.png`,
             flipped: false,
             matched: false,
         },
         {
             id: 'card3-1',
-            image: '/images/card3.jpg',
+            image: `${base}images/card3.jpg`,
             flipped: false,
             matched: false,
         },
         {
             id: 'card3-2',
-            image: '/images/card3.jpg',
+            image: `${base}images/card3.jpg`,
             flipped: false,
             matched: false,
         },
