@@ -1,9 +1,10 @@
 import { type FC } from 'react';
+import MemoryGame from './components/MemoryGame.tsx';
 
 export const App: FC = () => {
     return (
-        <div>
-            <h1>Hello World!</h1>
+        <div className='App'>
+            <MemoryGame />
         </div>
     );
 };
